@@ -1,4 +1,4 @@
-# <div align="center"><a href="https://www.Yoshitha.tk"><b><i>WELCOME!, TO MY NEW OFFICIAL WEB SITE</i></b></a></div>
+# <div align="center"><a href="https://www.Yoshitha.tk"><b><i>WELCOME!, TO MY NEW OFFICIAL WEBSITE</i></b></a></div>
 
 
 # <div align="center"><img src="images/Yoshitha Rathnayake 2.png" width="300px"></div>
