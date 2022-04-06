@@ -13,7 +13,7 @@
 
 # [![Contributors](https://img.shields.io/badge/Contributors-1-lawngreen.svg?style=flat-square)](#contributors-)
 
-Available at :  <b><i>[www.Yoshitha.tk](https://www.Yoshitha.tk)</i></b>
+Available at :  <b><i>[https://YoshithaRathnayake.github.io/NEW-YOSHITHA-WEBSITE](https://yoshitharathnayake.github.io/NEW-YOSHITHA-WEBSITE/)</i></b>
 
 
 #
