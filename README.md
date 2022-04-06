@@ -4,7 +4,7 @@
 # <div align="center"><img src="images/Yoshitha Rathnayake 2.png" width="300px"></div>
 
 #
-> This is My Official Web Site
+> This is My Official Website
 
 > Used Programming Languages (HTML, CSS, JavaScript, Bootstrap) 
 
