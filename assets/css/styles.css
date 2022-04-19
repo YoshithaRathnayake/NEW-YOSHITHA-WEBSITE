@@ -79,7 +79,7 @@
 
 .disappear {
     animation: vanish 1s forwards;
-    animation-delay: 10s;
+    animation-delay: 14s;
 }
 
 @keyframes vanish {
