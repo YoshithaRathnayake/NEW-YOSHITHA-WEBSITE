@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Yoshitha2008",
+      "name": "Yoshitha Rathnayake",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93233555?v=4",
+      "profile": "https://yoshitharathnayake.w3spaces.com/YOSHITHA_RATHNAYAKE.html",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "NEW-YOSHITHA-WEBSITE",
+  "projectOwner": "YoshithaRathnayake",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
