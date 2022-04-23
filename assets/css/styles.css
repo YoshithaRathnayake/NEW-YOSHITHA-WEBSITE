@@ -48,12 +48,11 @@
 /* Pre-Loader Image */
 
 .preloader-img {
-    border-radius: 50%;
     height: 215px;
     -webkit-animation-name: zoom;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 2s;
     animation-name: zoom;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 @-webkit-keyframes zoom {
@@ -79,7 +78,7 @@
 
 .disappear {
     animation: vanish 1s forwards;
-    animation-delay: 15s;
+    animation-delay: 14s;
 }
 
 @keyframes vanish {
@@ -106,4 +105,3 @@
     position: relative;
     top: 10px;
 }
-
