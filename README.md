@@ -31,36 +31,3 @@ Available at :  <b><i>[https://YoshithaRathnayake.github.io/NEW-YOSHITHA-WEBSITE
     cd NEW-YOSHITHA-WEBSITE
     ```
      
-#
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.Yoshitha.tk"><img src="https://avatars.githubusercontent.com/u/97069900?v=4?s=100" width="100px;" alt=""/><br /><sub><b>YOSHITHA RATHNAYAKE</b></sub></a><br /><a href="https://github.com/YoshithaRathnayake/NEW-YOSHITHA-WEBSITE/commits?author=YoshithaRathnayake" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
- 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://www.Yoshitha.tk"><img src="assets/images/Yoshitha Rathnayake 1.png" width="100px;" alt="Yoshitha Rathnayake"/><br /><sub><b>Yoshitha Rathnayake</b></sub></a><br/><a href="https://github.com/YoshithaRathnayake/NEW-YOSHITHA-WEBSITE/commits?author=YoshithaRathnayake" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [All Contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
