@@ -1,7 +1,7 @@
 # <div align="center"><a href="https://www.Yoshitha.tk"><b><i>WELCOME!, TO MY NEW OFFICIAL WEBSITE</i></b></a></div>
 
 
-# <div align="center"><img src="images/Yoshitha Rathnayake 2.png" width="300px"></div>
+# <div align="center"><img src="assets/images/Yoshitha Rathnayake 1.png" width="300px"></div>
 
 #
 > This is My New Official Website
@@ -38,7 +38,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://yoshitharathnayake.w3spaces.com/Index.html"><img src="images/Yoshitha Rathnayake 2.png" width="100px;" alt="Yoshitha Rathnayake"/><br /><sub><b>Yoshitha Rathnayake</b></sub></a><br/><a href="https://github.com/acf-sack/sack-site/commits?author=Yoshitha-SACK" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.Yoshitha.tk"><img src="assets/images/Yoshitha Rathnayake 1.png" width="100px;" alt="Yoshitha Rathnayake"/><br /><sub><b>Yoshitha Rathnayake</b></sub></a><br/><a href="https://github.com/YoshithaRathnayake/NEW-YOSHITHA-WEBSITE/commits?author=YoshithaRathnayake" title="Code">💻</a></td>
   </tr>
 </table>
 
