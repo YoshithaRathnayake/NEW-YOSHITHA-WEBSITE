@@ -5,7 +5,7 @@
 
 
 
-# <div align="center"><img src="assets/images/Yoshitha Rathnayake 1.png" width="300px"></div> 
+# <div align="center"><img src="assets/img/Yoshitha Rathnayake 1.png" width="300px"></div> 
 
 
 > This is My New Official Website
