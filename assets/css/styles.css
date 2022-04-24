@@ -22,7 +22,7 @@
 /* Horizontal Bar Pre-Loader */
 
 .bar-preloader {
-    background: url("../videos/pre-loader.gif") no-repeat center;
+    background: url("../vid/pre-loader.gif") no-repeat center;
     background-size: 200px;
     height: 170vh;
     width: 100%;
@@ -36,7 +36,7 @@
 /* Circular Pre-Loader */
 
 .circle-preloader {
-    background: url("../videos/circle pre-loader.gif") no-repeat center;
+    background: url("../vid/circle pre-loader.gif") no-repeat center;
     background-size: 250px;
     z-index: 1000;
     position: relative;
@@ -49,6 +49,8 @@
 
 .preloader-img {
     height: 215px;
+    position: relative;
+    top: 1px;
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 2s;
     animation-name: zoom;
@@ -59,6 +61,7 @@
     from {
         -webkit-transform: scale(0)
     }
+
     to {
         -webkit-transform: scale(1)
     }
@@ -68,6 +71,7 @@
     from {
         transform: scale(0)
     }
+
     to {
         transform: scale(1)
     }
@@ -78,7 +82,7 @@
 
 .disappear {
     animation: vanish 1s forwards;
-    animation-delay: 14s;
+    animation-delay: 12s;
 }
 
 @keyframes vanish {
@@ -97,11 +101,122 @@
     text-align: center;
     position: relative;
     top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .auto-type {
     font-size: 60px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
     top: 10px;
+    height: 100%;
+}
+
+
+/* Media Quaries */
+
+@media only screen and (max-width: 1075px) {
+    .circle-preloader {
+        top: 10px;
+    }
+
+    .text-box {
+        top: 20px;
+    }
+
+    .auto-type {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    .auto-type {
+        font-size: 50px;
+    }
+
+    .circle-preloader {
+        background-size: 220px;
+        top: 30px;
+    }
+
+    .preloader-img {
+        height: 190px;
+    }
+
+    .bar-preloader {
+        background-size: 170px;
+    }
+}
+
+@media only screen and (max-width: 907px) {
+    .circle-preloader {
+        top: -5px;
+    }
+
+    .text-box {
+        top: 0px;
+    }
+
+    .bar-preloader {
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 518px) {
+    .auto-type {
+        font-size: 45px;
+        top: 8px;
+    }
+
+    .text-box {
+        top: 10px;
+    }
+
+    .circle-preloader {
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .auto-type {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 423px) {
+    .auto-type {
+        font-size: 35px;
+        top: 5px;
+        height: 100%;
+    }
+
+    .text-box {
+        top: 20px;
+    }
+
+    .circle-preloader {
+        background-size: 200px;
+        top: 25px;
+    }
+
+    .preloader-img {
+        height: 170px;
+    }
+
+    .bar-preloader {
+        background-size: 150px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .text-box {
+        margin-right: 30px;
+        margin-left: 30px;
+        top: 15px;
+    }
+
+    .circle-preloader {
+        top: 5px;
+    }
 }
