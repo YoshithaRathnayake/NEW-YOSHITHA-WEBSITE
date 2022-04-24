@@ -151,15 +151,15 @@
 
 @media only screen and (max-width: 907px) {
     .circle-preloader {
-        top: -5px;
+        top: 10px;
     }
 
     .text-box {
-        top: 0px;
+        top: 20px;
     }
 
     .bar-preloader {
-        top: 20px;
+        top: 10px;
     }
 }
 
@@ -218,5 +218,37 @@
 
     .circle-preloader {
         top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1076px) {
+    .circle-preloader {
+        top: -15px;
+    }
+
+    .text-box {
+        top: 5px;
+    }
+
+    .bar-preloader {
+        top: 15px;
+    }
+
+    .auto-type {
+        top: 11px;
+    }
+}
+
+@media only screen and (min-width: 1104px) {
+    .circle-preloader {
+        top: 20px;
+    }
+
+    .text-box {
+        top: 25px;
+    }
+
+    .bar-preloader {
+        top: 0px;
     }
 }
