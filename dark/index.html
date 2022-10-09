@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <!-- Meta Tags -->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="Hi, I am Yoshitha Rathnayake. I am from Kandy, Sri Lanka. I am 13 years old. I am studing in St. Anthony's College, Kandy">
-    <meta name="author" content="YOSHITHA RATHNAYAKE">
-    <meta name="keywords" content="PERSONAL PORTFOLIO WEBSITE">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="description"
+      content="Hi, I am Yoshitha Rathnayake. I am from Kandy, Sri Lanka. I am 13 years old. I am studing in St. Anthony's College, Kandy"
+    />
+    <meta name="author" content="YOSHITHA RATHNAYAKE" />
+    <meta name="keywords" content="PERSONAL PORTFOLIO WEBSITE" />
 
     <!-- Facebook OG Tags -->
 
@@ -19,36 +19,47 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://web.Yoshitha.tk" />
     <meta property="og:image" content="assets/img/YoshithaRathnayake1.jpg" alt="Yoshitha Rathnayake" />
-    <meta property="og:description"
-        content="Hi, I am Yoshitha Rathnayake. I am from Kandy, Sri Lanka. I am 13 years old. I am studing in St. Anthony's College, Kandy" />
+    <meta
+      property="og:description"
+      content="Hi, I am Yoshitha Rathnayake. I am from Kandy, Sri Lanka. I am 13 years old. I am studing in St. Anthony's College, Kandy"
+    />
     <meta property="og:site_name" content="YOSHITHA RATHNAYAKE" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Font Awesome -->
 
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
 
     <!-- Bootstrap -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- LineIcons -->
 
-    <link href="your-project-dir/icon-font/lineicons.css" rel="stylesheet">
-    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link href="your-project-dir/icon-font/lineicons.css" rel="stylesheet" />
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
 
     <!-- CSS-->
 
-    <link rel="stylesheet" type="text/CSS" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/CSS" href="assets/css/styles.css" />
 
     <!-- Edo Font -->
 
-    <link href="http://fonts.cdnfonts.com/css/edo" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/edo" rel="stylesheet" />
 
     <!-- Favicon -->
 
@@ -57,177 +68,168 @@
     <!-- Title -->
 
     <title>YOSHITHA RATHNAYAKE</title>
+  </head>
 
-</head>
-
-
-<body>
-
-
+  <body>
     <!-- Navigation Bar -->
 
     <nav class="nav-bar container-fluid responsive">
+      <label
+        ><a id="nav-label" href="../"
+          ><b><i>yoshitha rathnayake</i></b></a
+        ></label
+      >
 
-        <label><a id="nav-label" href="../"><b><i>yoshitha rathnayake</i></b></a></label>
+      <a href="../" id="gradient-text"></a>
 
-        <a href="../" id="gradient-text"></a>
+      <ul class="nav-links">
+        <li><a href="#home-section" class="nav-items" id="home" onclick="home()">home</a></li>
+        <li><a href="#about-section" class="nav-items" id="about" onclick="about()">about</a></li>
+        <li><a href="#contact" class="nav-items" id="contact" onclick="contact()">contact</a></li>
+      </ul>
 
-        <ul class="nav-links">
+      <img src="assets/img/Hamburger.png" id="hamburger" onclick="NavOpen()" alt="Hamburger Menu" />
+      <img src="assets/img/Close.png" id="close" onclick="NavClose()" alt="Close Button" />
+      <nav class="side-bar">
+        <div class="side-nav bg-dark">
+          <label
+            ><a id="side-label" href="../"
+              ><b><i>yoshitha</i></b></a
+            ></label
+          >
 
-            <li><a href="#home-section" class="nav-items" id="home" onclick="home()">home</a></li>
-            <li><a href="#about-section" class="nav-items" id="about" onclick="about()">about</a></li>
-            <li><a href="#contact" class="nav-items" id="contact" onclick="contact()">contact</a></li>
-        </ul>
-
-
-
-        <img src="assets/img/Hamburger.png" id="hamburger" onclick="NavOpen()" alt="Hamburger Menu">
-        <img src="assets/img/Close.png" id="close" onclick="NavClose()" alt="Close Button">
-        <nav class="side-bar">
-            <div class="side-nav bg-dark">
-                <label><a id="side-label" href="../"><b><i>yoshitha</i></b></a></label>
-
-                <a class="nav-item" id="side-home" href="#home">
-                    HOME
-                </a>
-                <a class="nav-item" id="side-about" href="#about">
-                    ABOUT
-                </a>
-                <a class="nav-item" id="side-education" href="#education">
-                    EDUCATION
-                </a>
-                <a class="nav-item" id="side-skills" href="#skills">
-                    SKILLS
-                </a>
-                <a class="nav-item" id="side-contact" href="#contact">
-                    CONTACT
-                </a>
-            </div>
-            <div id="nav-overlay" onclick="NavOverlay()"></div>
-        </nav>
-
-
+          <a class="nav-item" id="side-home" href="#home"> HOME </a>
+          <a class="nav-item" id="side-about" href="#about"> ABOUT </a>
+          <a class="nav-item" id="side-education" href="#education"> EDUCATION </a>
+          <a class="nav-item" id="side-skills" href="#skills"> SKILLS </a>
+          <a class="nav-item" id="side-contact" href="#contact"> CONTACT </a>
+        </div>
+        <div id="nav-overlay" onclick="NavOverlay()"></div>
+      </nav>
     </nav>
-
-
 
     <!-- Home Section -->
 
     <section id="home-section">
+      <!-- Main Heading -->
 
-        <!-- Main Heading -->
+      <center>
+        <header>
+          <a id="header" href="../"
+            ><b><i>yoshitha rathnayake</i></b></a
+          >
+        </header>
+      </center>
 
-        <center>
-            <header><a id="header" href="../"><b><i>yoshitha rathnayake</i></b></a></header>
-        </center>
+      <!-- Glowing Text -->
 
+      <center>
+        <a href="../" id="glowing-text"></a>
+      </center>
 
-        <!-- Glowing Text -->
+      <!-- Main Image -->
 
-        <center>
-            <a href="../" id="glowing-text"></a>
-        </center>
+      <center>
+        <img class="main-img" src="assets/img/Yoshitha Rathnayake 1.png" alt="Yoshitha Rathnayake" />
+      </center>
 
+      <!-- Auto Typing Effect -->
 
-        <!-- Main Image -->
+      <div class="text-box">
+        <h1><span class="first-text">I'm a </span><span class="auto-type"></span></h1>
+      </div>
 
-        <center>
-            <img class="main-img" src="assets/img/Yoshitha Rathnayake 1.png" alt="Yoshitha Rathnayake">
-        </center>
+      <!-- About Me Button -->
 
+      <center>
+        <a class="about-me" href="#about-section">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          about me
+        </a>
+      </center>
 
-        <!-- Auto Typing Effect -->
+      <!---- Social Media Icons -->
 
-        <div class="text-box">
-            <h1><span class="first-text">I'm a </span><span class="auto-type"></span></h1>
+      <center class="social-media-icons">
+        <div id="tooltip">
+          <span id="tooltiptext">Whatsapp</span>
+          <a href="https://api.whatsapp.com/send/?phone=0714345661" target="_blank "
+            ><img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Whatsapp Icon"
+          /></a>
         </div>
-
-
-        <!-- About Me Button -->
-
-        <center>
-            <a class="about-me" href="#about-section">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                about me
-            </a>
-        </center>
-
-
-        <!---- Social Media Icons -->
-
-        <center class="social-media-icons">
-            <div id="tooltip">
-                <span id="tooltiptext">Whatsapp</span>
-                <a href="https://api.whatsapp.com/send/?phone=0714345661" target="_blank "><img
-                        src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Whatsapp Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">Telegram</span>
-                <a href="https://t.me/YoshithaRathnayake2008" target="_blank "><img
-                        src="https://img.icons8.com/color/48/000000/telegram-app--v1.png" alt="Telegram Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">Twitter</span>
-                <a href="https://twitter.com/Yoshitha2008" target="_blank "> <img
-                        src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">LinkedIn</span>
-                <a href="https://www.linkedin.com/in/yoshitha-rathnayake" target="_blank "><img
-                        src="https://img.icons8.com/color/48/linkedin-circled--v1.png" alt="LinkedIn Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">Instagram</span>
-                <a href="https://www.instagram.com/yoshitha_rathnayake/" target="_blank "><img
-                        src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">Medium</span>
-                <a href="https://yoshitharathnayake.medium.com"><img
-                        src="https://img.icons8.com/ios-filled/48/ffffff/medium--v2.png" alt="Medium Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">GitHub</span>
-                <a href="https://github.com/YoshithaRathnayake" target="_blank "><img
-                        src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">GitLab</span>
-                <a href="https://gitlab.com/YoshithaRathnayake" target="_blank "><img
-                        src="https://img.icons8.com/color/48/000000/gitlab.png" alt="GitLab Icon" /></a>
-            </div>
-            <div id="tooltip">
-                <span id="tooltiptext">YouTube</span>
-                <a href="https://www.youtube.com/channel/UCiuDD_uA4v5PF2cr-3nTChA" target="_blank "><img
-                        src="https://img.icons8.com/color/50/youtube-play.png" alt="YouTube Icon" /></a>
-            </div>
-        </center>
-
+        <div id="tooltip">
+          <span id="tooltiptext">Telegram</span>
+          <a href="https://t.me/YoshithaRathnayake2008" target="_blank "
+            ><img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png" alt="Telegram Icon"
+          /></a>
+        </div>
+        <div id="tooltip">
+          <span id="tooltiptext">Twitter</span>
+          <a href="https://twitter.com/Yoshitha2008" target="_blank ">
+            <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png" alt="Twitter Icon"
+          /></a>
+        </div>
+        <div id="tooltip">
+          <span id="tooltiptext">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/yoshitha-rathnayake" target="_blank "
+            ><img src="https://img.icons8.com/color/48/linkedin-circled--v1.png" alt="LinkedIn Icon"
+          /></a>
+        </div>
+        <div id="tooltip">
+          <span id="tooltiptext">Instagram</span>
+          <a href="https://www.instagram.com/yoshitha_rathnayake/" target="_blank "
+            ><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram Icon"
+          /></a>
+        </div>
+        <div id="tooltip">
+          <span id="tooltiptext">Medium</span>
+          <a href="https://yoshitharathnayake.medium.com"
+            ><img src="https://img.icons8.com/ios-filled/48/ffffff/medium--v2.png" alt="Medium Icon"
+          /></a>
+        </div>
+        <div id="tooltip">
+          <span id="tooltiptext">GitHub</span>
+          <a href="https://github.com/YoshithaRathnayake" target="_blank "
+            ><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub Icon"
+          /></a>
+        </div>
+        <div id="tooltip">
+          <span id="tooltiptext">GitLab</span>
+          <a href="https://gitlab.com/YoshithaRathnayake" target="_blank "
+            ><img src="https://img.icons8.com/color/48/000000/gitlab.png" alt="GitLab Icon"
+          /></a>
+        </div>
+        <div id="tooltip">
+          <span id="tooltiptext">YouTube</span>
+          <a href="https://www.youtube.com/channel/UCiuDD_uA4v5PF2cr-3nTChA" target="_blank "
+            ><img src="https://img.icons8.com/color/50/youtube-play.png" alt="YouTube Icon"
+          /></a>
+        </div>
+      </center>
     </section>
-
-
 
     <section class="second-section">
+      <!-- About Section -->
 
-        <!-- About Section -->
+      <section id="about-section">
+        <h1>ABOUT ME</h1>
+        <h3>ABOUT <span class="text-info">ME</span></h3>
+        <img class="about-img" src="../assets/img/Yoshitha Rathnayake 2.jpg" alt="Yoshitha Rathnayake" />
+        <p class="about-text">
+          Hi, I am Yoshitha Rathnayake. I am a student and I am 14 years old. I live in Kandy in Sri Lanka. I am studing
+          in St.Anthony's College Kandy. Now, I am in Grade 9D in my school. This is my First Web Site. My favourite
+          subject is Information and Communication Technology. My mother's name is Sudeshika Manthilake and my father's
+          name is Athula Rathnayake. I hope to be a Computer Engineer in the future.
+        </p>
+      </section>
 
-        <section id="about-section">
-            <h1>ABOUT ME</h1>
-            <h3>ABOUT <span class="text-info">ME</span></h3>
-            <img class="about-img" src="../assets/img/Yoshitha Rathnayake 2.jpg" alt="Yoshitha Rathnayake">
-            <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, tempore delectus. Hic nisi commodi, blanditiis nesciunt quasi nemo. Explicabo facere quasi veritatis temporibus iusto inventore repellat soluta, ducimus incidunt ab?</p>
-        </section>
+      <!-- Contact Section -->
 
-
-        <!-- Contact Section -->
-
-        <section id="contact-section"></section>
-
+      <section id="contact-section"></section>
     </section>
-
 
     <!-- JavaScript -->
 
@@ -247,45 +249,40 @@
 
     <!-- Bootstrap -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Nav-bar Scroll Animation -->
 
     <script>
+      // Auto Typing Effect Script
 
-        // Auto Typing Effect Script
+      var typed = new Typed(".auto-type", {
+        strings: ["STUDENT", "DEVELOPER", "PROGRAMMER", "DESIGNER", "EDITOR", "PHOTOGRAPHER", "FREELANCER"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
 
-        var typed = new Typed(".auto-type", {
-            strings: ["STUDENT", "DEVELOPER", "PROGRAMMER", "DESIGNER", "EDITOR", "PHOTOGRAPHER", "FREELANCER"],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true
-        })
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 400) {
+          $(".nav-bar").addClass("affix");
+          console.log("OK");
+        } else {
+          $(".nav-bar").removeClass("affix");
+        }
+      });
 
+      const menu_toggle = document.querySelector(".menu-toggle");
+      const sidebar = document.querySelector(".sidebar");
 
-        $(window).scroll(function () {
-            if ($(document).scrollTop() > 400) {
-                $('.nav-bar').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav-bar').removeClass('affix');
-            }
-        });
-
-
-        const menu_toggle = document.querySelector('.menu-toggle');
-        const sidebar = document.querySelector('.sidebar');
-
-        menu_toggle.addEventListener('click', () => {
-            menu_toggle.classList.toggle('is-active');
-            sidebar.classList.toggle('is-active');
-        });
-
+      menu_toggle.addEventListener("click", () => {
+        menu_toggle.classList.toggle("is-active");
+        sidebar.classList.toggle("is-active");
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
