@@ -869,10 +869,11 @@ html {
 }
 
 .about-text {
+    font-family:"Lucida Console", Monaco, monospace;
     width: 500px;
     position: relative;
     left: 650px;
     bottom: 170px;
     color: rgb(122, 122, 122);
-    font-size: 20px;
+    font-size: 18px;
 }
