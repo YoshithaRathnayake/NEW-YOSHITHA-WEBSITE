@@ -1,0 +1,73 @@
+/* Horizontal Bar Pre-Loader */
+
+.bar-preloader {
+    background: url("../vid/pre-loader.gif") no-repeat center;
+    background-size: 200px;
+    height: 170vh;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+
+/* Circular Pre-Loader */
+
+.circle-preloader {
+    background: url("../vid/circle pre-loader.gif") no-repeat center;
+    background-size: 250px;
+    z-index: 1000;
+    position: relative;
+    top: 50px;
+    padding: 75px;
+}
+
+
+/* Pre-Loader Image */
+
+.preloader-img {
+    height: 215px;
+    position: relative;
+    top: 1px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 2s;
+    animation-name: zoom;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Disappearing Animation */
+
+.disappear {
+    animation: vanish 1s forwards;
+    animation-delay: 12s;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        background-color: white;
+    }
+}
