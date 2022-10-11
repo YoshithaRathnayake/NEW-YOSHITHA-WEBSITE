@@ -815,7 +815,7 @@ html {
     box-shadow: 0 0 50px rgba(0, 0, 0, 1);
     background-color: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(10px);
-    height: 1000px;
+    height: 1300px;
 }
 
 #about-section h1 {
@@ -922,4 +922,12 @@ html {
     background: #0563bb;
     bottom: -26px;
     left: calc(50% - 20px);
+}
+
+.contact-text {
+    width: 720px;
+    color: rgb(122, 122, 122);
+    font-size: 20px;
+    text-align: center;
+    margin: 32px auto;
 }
