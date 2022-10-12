@@ -139,7 +139,7 @@ html {
 /* Nav-Label */
 
 #nav-label {
-    font-family: 'Earth Orbiter 3D';
+    font-family: 'Edo';
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
@@ -197,7 +197,7 @@ html {
 /* Gradient Text */
 
 #gradient-text {
-    font-family: 'Earth Orbiter 3D';
+    font-family: 'Edo';
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
@@ -283,7 +283,7 @@ html {
 /* Main Heading */
 
 #header {
-    font-family: 'Earth Orbiter Deep 3D';
+    font-family: 'Edo';
     letter-spacing: 1px;
     word-spacing: 1px;
     color: white;
@@ -343,7 +343,7 @@ html {
 /* Header Hover Glowing Animation */
 
 #glowing-text {
-    font-family: 'Earth Orbiter Deep 3D';
+    font-family: 'Edo';
     letter-spacing: 1px;
     word-spacing: 1px;
     font-size: 70px;
@@ -814,6 +814,7 @@ html {
     }
 }
 
+/* instead of single section made contact and about two different sections */
 /* .second-section {
     box-shadow: 0 0 50px rgba(0, 0, 0, 1);
     background-color: rgba(0, 0, 0, 0.9);
@@ -956,6 +957,8 @@ html {
     top: 250px;
 }
 
+
+/* form related css  */
 input ,label{
     display: block;
     border-radius: 8px;
