@@ -1,0 +1,1 @@
+Changes are been made respnsive in ontact bar 
