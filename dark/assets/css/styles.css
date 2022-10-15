@@ -2,6 +2,10 @@
 
 @import url('http://fonts.cdnfonts.com/css/edo');
 
+/* Kanit Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 
 /* Colour Variable */
 
@@ -869,8 +873,7 @@ html {
 }
 
 .about-text {
-    font-style: italic;
-    font-family: serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: bolder;
     width: 500px;
     position: relative;
