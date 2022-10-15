@@ -875,5 +875,57 @@ html {
     left: 650px;
     bottom: 170px;
     color: rgb(122, 122, 122);
+
     font-size: 18px;
 }
+=======
+    font-size: 20px;
+}
+
+
+
+/* Contact Section */
+
+#contact-section h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 90px;
+    filter: blur(4px);
+    font-family: impact;
+    z-index: -1;
+}
+
+#contact-section h3 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 25px;
+    font-family: impact;
+    z-index: 99;
+    filter: blur(1px);
+}
+
+#contact-section h3::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: rgb(168, 168, 168);
+    bottom: -25px;
+    left: calc(50% - 60px);
+}
+
+#contact-section h3::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0563bb;
+    bottom: -26px;
+    left: calc(50% - 20px);
+}
+
