@@ -936,8 +936,8 @@ html {
     width: 550px;
     margin: 90px 100px; 
     position: relative;
-    /* right: 650px; */
-    /* bottom: 170px; */
+    left: 380px;
+     /* bottom: 170px;  */
     color: rgb(122, 122, 122);
     font-size: 20px;
     line-height: 1.8em;
@@ -947,15 +947,11 @@ html {
     height: 800px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 1);
     background-color: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(10px)
- 
+    backdrop-filter: blur(10px);
+    text-align: center;
 }
 
-#contact-section .formtext{
-    position:absolute;
-    right: 200px;
-    top: 250px;
-}
+
 
 
 /* form related css  */
@@ -977,3 +973,5 @@ textarea{
 .submitbtn::hover{
     color: #616161;
 }
+
+
