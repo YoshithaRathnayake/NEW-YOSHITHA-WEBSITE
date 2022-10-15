@@ -936,11 +936,11 @@ html {
     width: 550px;
     margin: 90px 100px; 
     position: relative;
-    /* right: 650px; */
-    /* bottom: 170px; */
+    left : 380px;
     color: rgb(122, 122, 122);
     font-size: 20px;
     line-height: 1.8em;
+    text-align: center;
 }
 
 #contact-section{
@@ -955,25 +955,4 @@ html {
     position:absolute;
     right: 200px;
     top: 250px;
-}
-
-
-/* form related css  */
-input ,label{
-    display: block;
-    border-radius: 8px;
-    color: rgb(122, 122, 122);
-}
-form{
-    margin: 12px;
-    padding: 15px;
-    border-radius: 8px;
-    line-height: 2.4em;
-    background-color: rgb(44, 43, 43);
-}
-textarea{
-    border-radius: 8px;
-}
-.submitbtn::hover{
-    color: #616161;
 }
