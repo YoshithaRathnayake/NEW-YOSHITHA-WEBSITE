@@ -23,6 +23,7 @@ Available at : <b><i>[https://YoshithaRathnayake.github.io/NEW-YOSHITHA-WEBSITE]
 # Run Locally
 
 - Clone your forked repository
+
   ```
   git clone https://github.com/USERNAME/NEW-YOSHITHA-WEBSITE.git
   cd NEW-YOSHITHA-WEBSITE
