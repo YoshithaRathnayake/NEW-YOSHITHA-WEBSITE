@@ -913,7 +913,7 @@ html {
     display: block;
     width: 130px;
     height: 2px;
-    background: rgb(209, 38, 38);
+    background: rgb(168, 168, 168);
     bottom: -25px;
     left: calc(50% - 60px);
 }
