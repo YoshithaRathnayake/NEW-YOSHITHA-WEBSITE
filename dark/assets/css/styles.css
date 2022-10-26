@@ -2,6 +2,9 @@
 
 @import url('http://fonts.cdnfonts.com/css/edo');
 
+/* Kanit Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 /* Colour Variable */
 
@@ -878,6 +881,8 @@ html {
 }
 
 .about-text {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
     width: 500px;
     position: relative;
     left: 650px;
