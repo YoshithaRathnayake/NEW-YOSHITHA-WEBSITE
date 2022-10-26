@@ -55,7 +55,7 @@
 
     <!-- CSS-->
 
-    <link rel="stylesheet" type="text/CSS" href="assets/css/styles.css" />
+    <link rel="stylesheet" type="text/CSS" href="./assets/css/styles.css" />
 
     <!-- Edo Font -->
 
@@ -71,7 +71,7 @@
   </head>
 
   <body>
-    <!-- Navigation Bar -->
+    
 
     <nav class="nav-bar container-fluid responsive">
       <label
@@ -112,7 +112,7 @@
 
     <section id="home-section">
       <!-- Main Heading -->
-
+       <!-- Navigation Bar -->
       <center>
         <header>
           <a id="header" href="../"
@@ -227,7 +227,6 @@
       </section>
 
       <!-- Contact Section -->
-
       <section id="contact-section">
             <h1>CONTACT ME</h1>
             <h3>CONTACT <span class="text-info">ME</span></h3>
@@ -240,10 +239,9 @@
                 <p>Contact me via Email, Message or connect me with social media accounts. 
                   Also send me any inquiries by filling in the form given just below.</p>
                 </center>
-              
+                
       </section>
     </section>
-
     <!-- JavaScript -->
 
     <script src="assets/js/app.js"></script>
@@ -269,6 +267,7 @@
     ></script>
 
     <!-- Nav-bar Scroll Animation -->
+    <button onclick="topFunction()" style="bottom: 20px;position: sticky;" id="myBtn" title="Go to top">Top</button>  
 
     <script>
       // Auto Typing Effect Script
@@ -296,6 +295,26 @@
         menu_toggle.classList.toggle("is-active");
         sidebar.classList.toggle("is-active");
       });
+      // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
     </script>
+
   </body>
 </html>
