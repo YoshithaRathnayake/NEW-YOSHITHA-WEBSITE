@@ -2,7 +2,8 @@
 
 @media (min-width: 200px) and (max-width: 575px) {
   ::-webkit-scrollbar {
-    width: 6px;
+    width: 5px;
+    height: 5px;
     background-color: #07090f;
   }
 
@@ -19,7 +20,8 @@
 
 @media (min-width: 575.1px) and (max-width: 767px) {
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
+    height: 6px;
     background-color: #07090f;
   }
 
@@ -36,7 +38,8 @@
 
 @media (min-width: 767.1px) and (max-width: 991px) {
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #07090f;
   }
 
@@ -53,7 +56,8 @@
 
 @media (min-width: 991.1px) {
   ::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
+    height: 10px;
     background-color: #07090f;
   }
 
