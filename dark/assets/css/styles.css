@@ -1,564 +1,703 @@
 /* Edo Font */
 
-@import url('http://fonts.cdnfonts.com/css/edo');
+@import url("http://fonts.cdnfonts.com/css/edo");
 
 /* Kanit Font */
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 /* Colour Variable */
 
 :root {
-    --primary-color: #1efff4;
-    --secondary-color: #1eff8f;
+  --primary-color: #1efff4;
+  --secondary-color: #1eff8f;
 }
 
 /* Background Image */
 
 body {
-    background-image: url("../img/Background Image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-animation-name: ScreenFade;
-    -webkit-animation-duration: 3s;
-    animation-name: ScreenFade;
-    animation-duration: 3s;
+  background-image: url("../img/Background Image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-animation-name: ScreenFade;
+  -webkit-animation-duration: 3s;
+  animation-name: ScreenFade;
+  animation-duration: 3s;
+}
+
+/* Custom Scrollbar */
+
+@media (min-width: 200px) and (max-width: 575px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #07090f;
+  }
+
+  ::-webkit-scrollbar-track {
+    border: 5px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #00ffbb, #2eaae1);
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 575.1px) and (max-width: 767px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #07090f;
+  }
+
+  ::-webkit-scrollbar-track {
+    border: 5px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #00ffbb, #2eaae1);
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 767.1px) and (max-width: 991px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #07090f;
+  }
+
+  ::-webkit-scrollbar-track {
+    border: 5px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #00ffbb, #2eaae1);
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 991.1px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #07090f;
+  }
+
+  ::-webkit-scrollbar-track {
+    border: 5px solid rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0 0 2.5px 2 rgba(0, 0, 0, 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #00ffbb, #2eaae1);
+    border-radius: 15px;
+  }
 }
 
 /* Screen Fading Animation */
 
 @-webkit-keyframes ScreenFade {
-    from {
-        opacity: 0
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes ScreenFade {
-    from {
-        opacity: 0
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1
-    }
+  to {
+    opacity: 1;
+  }
 }
-
 
 /* Scroll Behavior */
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 74px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 74px;
 }
-
 
 /* Navigation Bar */
 
 .nav-bar {
-    position: fixed;
-    height: 120px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(20px);
-    z-index: 1;
+  position: fixed;
+  height: 120px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+  z-index: 1;
 }
-
 
 /* Affix */
 
 .affix {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 110px;
-    backdrop-filter: blur(20px);
-    animation-name: affix;
-    animation-duration: 1s;
-    -webkit-animation-name: affix;
-    -webkit-animation-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 110px;
+  backdrop-filter: blur(20px);
+  animation-name: affix;
+  animation-duration: 1s;
+  -webkit-animation-name: affix;
+  -webkit-animation-duration: 1s;
 }
 
 /* Affix Animation */
 
 @keyframes affix {
-    from {
-        background-color: rgba(0, 0, 0, 0.6);
-        height: 120px;
-    }
+  from {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 120px;
+  }
 
-    to {
-        background-color: black;
-        opacity: 0.97;
-        backdrop-filter: blur(20px);
-        height: 110px;
-    }
+  to {
+    background-color: black;
+    opacity: 0.97;
+    backdrop-filter: blur(20px);
+    height: 110px;
+  }
 }
 
 @-webkit-keyframes affix {
-    from {
-        background-color: rgba(0, 0, 0, 0.6);
-        height: 120px;
-    }
+  from {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 120px;
+  }
 
-    to {
-        background-color: black;
-        opacity: 0.97;
-        backdrop-filter: blur(20px);
-        height: 110px;
-    }
+  to {
+    background-color: black;
+    opacity: 0.97;
+    backdrop-filter: blur(20px);
+    height: 110px;
+  }
 }
 
 /* Hover Effect for Anchor tags in Affix */
 
 .affix a:hover {
-    background-color: #4d4d4d;
-    border-radius: 5px;
-    color: white;
+  background-color: #4d4d4d;
+  border-radius: 5px;
+  color: white;
 }
 
 /* Gradient Text in the Affix */
 
 .affix #gradient-text {
-    top: 30px;
+  top: 30px;
 }
 
 /* Nav-Label in the Affix */
 
 .affix #nav-label {
-    top: 30px;
+  top: 30px;
 }
 
 /* Nav-Links in the Affix */
 
 .affix .nav-links {
-    top: 40px;
+  top: 40px;
 }
-
 
 /* Nav-Label */
 
 #nav-label {
-    font-family: 'Edo';
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 30px;
-    text-transform: uppercase;
-    position: relative;
-    left: 100px;
-    top: 32px;
-    background: linear-gradient(250deg, rgb(255, 255, 255), rgb(190, 190, 190), rgb(155, 155, 155), rgb(124, 124, 124), rgb(117, 117, 117), rgb(114, 114, 114), rgb(117, 117, 117), rgb(124, 124, 124), rgb(155, 155, 155), rgb(190, 190, 190), rgb(255, 255, 255), rgb(255, 255, 255));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-size: 100%;
-    animation-name: NavLabel;
-    animation-duration: 2s;
-    -webkit-animation-name: NavLabel;
-    -webkit-animation-duration: 2s;
+  font-family: "Edo";
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  left: 100px;
+  top: 32px;
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: 100%;
+  animation-name: NavLabel;
+  animation-duration: 2s;
+  -webkit-animation-name: NavLabel;
+  -webkit-animation-duration: 2s;
 }
 
 /* Nav-Label Loading Animation */
 
 @keyframes NavLabel {
-    from {
-        left: 0px;
-        opacity: 0;
-    }
+  from {
+    left: 0px;
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-        left: 100px;
-    }
+  to {
+    opacity: 1;
+    left: 100px;
+  }
 }
 
 @-webkit-keyframes NavLabel {
-    from {
-        left: 0px;
-        opacity: 0;
-    }
+  from {
+    left: 0px;
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-        left: 100px;
-    }
+  to {
+    opacity: 1;
+    left: 100px;
+  }
 }
 
 /* Hover Effect for Nav-Label*/
 
 #nav-label:hover {
-    background: linear-gradient(250deg, rgb(255, 255, 255), rgb(190, 190, 190), rgb(155, 155, 155), rgb(124, 124, 124), rgb(117, 117, 117), rgb(114, 114, 114), rgb(117, 117, 117), rgb(124, 124, 124), rgb(155, 155, 155), rgb(190, 190, 190), rgb(255, 255, 255), rgb(255, 255, 255));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-size: 100%;
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: 100%;
 }
-
 
 /* Gradient Text */
 
 #gradient-text {
-    font-family: 'Edo';
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 30px;
-    text-transform: uppercase;
-    position: relative;
-    left: 95px;
-    top: 32px;
-    background: linear-gradient(250deg, rgb(255, 255, 255), rgb(190, 190, 190), rgb(155, 155, 155), rgb(124, 124, 124), rgb(117, 117, 117), rgb(114, 114, 114), rgb(117, 117, 117), rgb(124, 124, 124), rgb(155, 155, 155), rgb(190, 190, 190), rgb(255, 255, 255), rgb(255, 255, 255));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-size: 50%;
-    animation: GradientText 5s linear infinite;
+  font-family: "Edo";
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  left: 95px;
+  top: 32px;
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: 50%;
+  animation: GradientText 5s linear infinite;
 }
 
 /* Hover Effect for Gradient Text */
 
 #gradient-text:hover {
-    animation: GradientText 1s linear infinite;
+  animation: GradientText 1s linear infinite;
 }
 
 /* Nav-Links */
 
 .nav-links {
-    list-style-type: none;
-    display: flex;
-    float: right;
-    position: relative;
-    right: 100px;
-    top: 45px;
-    animation-name: NavLinks;
-    animation-duration: 2s;
-    -webkit-animation-name: NavLinks;
-    -webkit-animation-duration: 2s;
+  list-style-type: none;
+  display: flex;
+  float: right;
+  position: relative;
+  right: 100px;
+  top: 45px;
+  animation-name: NavLinks;
+  animation-duration: 2s;
+  -webkit-animation-name: NavLinks;
+  -webkit-animation-duration: 2s;
 }
 
 /* Nav-Links Loading Animation */
 
 @keyframes NavLinks {
-    from {
-        opacity: 0;
-        right: 0px;
-    }
+  from {
+    opacity: 0;
+    right: 0px;
+  }
 
-    to {
-        opacity: 1;
-        right: 100px;
-    }
+  to {
+    opacity: 1;
+    right: 100px;
+  }
 }
 
 @-webkit-keyframes NavLinks {
-    from {
-        opacity: 0;
-        right: 0px;
-    }
+  from {
+    opacity: 0;
+    right: 0px;
+  }
 
-    to {
-        opacity: 1;
-        right: 100px;
-    }
+  to {
+    opacity: 1;
+    right: 100px;
+  }
 }
-
 
 /* Nav-Items */
 
 .nav-items {
-    padding: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
 
 /* Hover Effect for Nav-Items */
 
 .nav-items:hover {
-    background-color: #616161;
-    border-radius: 5px;
-    color: white;
+  background-color: #616161;
+  border-radius: 5px;
+  color: white;
 }
-
 
 /* Main Heading */
 
 #header {
-    font-family: 'Edo';
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    color: white;
-    font-size: 70px;
-    position: relative;
-    top: 130px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: linear-gradient(50deg, rgb(255, 0, 200), rgb(255, 0, 0), rgb(229, 255, 0), rgb(0, 255, 255), rgb(0, 255, 55), rgb(217, 255, 0), rgb(255, 0, 149));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-size: 50%;
-    animation-name: header;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    -webkit-animation-name: header;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count: 1;
+  font-family: "Edo";
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: white;
+  font-size: 70px;
+  position: relative;
+  top: 130px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(
+    50deg,
+    rgb(255, 0, 200),
+    rgb(255, 0, 0),
+    rgb(229, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 255, 55),
+    rgb(217, 255, 0),
+    rgb(255, 0, 149)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: 50%;
+  animation-name: header;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  -webkit-animation-name: header;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
 }
 
 /* Hover Effect for the Heading */
 
 #header:hover {
-    background: linear-gradient(50deg, rgb(255, 0, 200), rgb(255, 0, 0), rgb(229, 255, 0), rgb(0, 255, 255), rgb(0, 255, 55), rgb(217, 255, 0), rgb(255, 0, 149));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-size: 50%;
+  background: linear-gradient(
+    50deg,
+    rgb(255, 0, 200),
+    rgb(255, 0, 0),
+    rgb(229, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 255, 55),
+    rgb(217, 255, 0),
+    rgb(255, 0, 149)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: 50%;
 }
 
 /* Heading Loading Animatioin */
 
 @keyframes header {
-    from {
-        opacity: 0;
-        top: 200px;
-    }
+  from {
+    opacity: 0;
+    top: 200px;
+  }
 
-    to {
-        opacity: 1;
-        top: 130px;
-    }
+  to {
+    opacity: 1;
+    top: 130px;
+  }
 }
 
 @-webkit-keyframes header {
-    from {
-        opacity: 0;
-        top: 200px;
-    }
+  from {
+    opacity: 0;
+    top: 200px;
+  }
 
-    to {
-        opacity: 1;
-        top: 130px;
-    }
+  to {
+    opacity: 1;
+    top: 130px;
+  }
 }
-
 
 /* Header Hover Glowing Animation */
 
 #glowing-text {
-    font-family: 'Edo';
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    font-size: 70px;
-    position: relative;
-    top: 130px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
-    background: linear-gradient(250deg, rgb(255, 0, 200), rgb(255, 0, 0), rgb(229, 255, 0), rgb(0, 255, 255), rgb(0, 255, 55), rgb(217, 255, 0), rgb(255, 0, 149));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-size: 50%;
-    animation: GradientText 10s linear infinite;
+  font-family: "Edo";
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 70px;
+  position: relative;
+  top: 130px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  background: linear-gradient(
+    250deg,
+    rgb(255, 0, 200),
+    rgb(255, 0, 0),
+    rgb(229, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 255, 55),
+    rgb(217, 255, 0),
+    rgb(255, 0, 149)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: 50%;
+  animation: GradientText 10s linear infinite;
 }
 
 @keyframes GradientText {
-    0% {
-        background-position: 0%;
-    }
+  0% {
+    background-position: 0%;
+  }
 
-    100% {
-        background-position: 400%;
-    }
+  100% {
+    background-position: 400%;
+  }
 }
 
 /* Hover Effect for Glowing Text */
 
 #glowing-text:hover {
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-    color: black;
-    cursor: pointer;
-    -webkit-text-fill-color: black;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  color: black;
+  cursor: pointer;
+  -webkit-text-fill-color: black;
 }
 
 @-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 5px aqua, 0 0 6px aquamarine, 0 0 7px cyan, 0 0 8px rgb(0, 255, 234), 0 0 9px aquamarine, 0 0 10px cyan, 0 0 11px rgb(0, 255, 76);
-    }
+  from {
+    text-shadow: 0 0 5px aqua, 0 0 6px aquamarine, 0 0 7px cyan,
+      0 0 8px rgb(0, 255, 234), 0 0 9px aquamarine, 0 0 10px cyan,
+      0 0 11px rgb(0, 255, 76);
+  }
 
-    to {
-        text-shadow: 0 0 10px rgb(47, 255, 116), 0 0 11px rgb(0, 255, 64), 0 0 12px rgb(0, 255, 255), 0 0 13px rgb(0, 255, 149), 0 0 14px rgb(0, 255, 242), 0 0 15px rgb(9, 255, 0), 0 0 16px rgb(0, 255, 213);
-    }
+  to {
+    text-shadow: 0 0 10px rgb(47, 255, 116), 0 0 11px rgb(0, 255, 64),
+      0 0 12px rgb(0, 255, 255), 0 0 13px rgb(0, 255, 149),
+      0 0 14px rgb(0, 255, 242), 0 0 15px rgb(9, 255, 0),
+      0 0 16px rgb(0, 255, 213);
+  }
 }
-
 
 /* Main Image */
 
 .main-img {
-    height: 350px;
-    position: relative;
-    top: 160px;
-    animation-name: MainImage;
-    animation-duration: 2s;
-    -webkit-animation-name: MainImage;
-    -webkit-animation-duration: 2s;
+  height: 350px;
+  position: relative;
+  top: 160px;
+  animation-name: MainImage;
+  animation-duration: 2s;
+  -webkit-animation-name: MainImage;
+  -webkit-animation-duration: 2s;
 }
 
 /* Main Image Loading Animation */
 
 @keyframes MainImage {
-    from {
-        height: 100px;
-        opacity: 0;
-        top: 260px;
-    }
+  from {
+    height: 100px;
+    opacity: 0;
+    top: 260px;
+  }
 
-    to {
-        height: 350px;
-        opacity: 1;
-        top: 160px;
-    }
+  to {
+    height: 350px;
+    opacity: 1;
+    top: 160px;
+  }
 }
 
 /* Hover Effect for the Main Image */
 
 .main-img:hover {
-    opacity: 0.9;
-    cursor: pointer;
+  opacity: 0.9;
+  cursor: pointer;
 }
-
 
 /* Auto Typing Effect */
 
 .text-box {
-    color: red;
-    text-align: center;
-    position: relative;
-    top: 200px;
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: rgba(0, 0, 0 , 0.2);
-    backdrop-filter: blur(20px);
-    padding: 5px 20px;
-    width: 370px;
-    display: block;
-    margin: auto;
-    border: 3px solid rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+  color: red;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 5px 20px;
+  width: 370px;
+  display: block;
+  margin: auto;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .auto-type {
-    font-size: 35px;
-    color: red;
-    font-family: Edo;
-    font-weight: bold;
-    font-style: italic;
-    position: relative;
-    top: 0px;
-    height: 100%;
+  font-size: 35px;
+  color: red;
+  font-family: Edo;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  top: 0px;
+  height: 100%;
 }
 
 .first-text {
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
 }
-
 
 /* About Me Button */
 
 .about-me {
-    font-size: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--primary-color);
-    backdrop-filter: blur(20px);
-    position: relative;
-    display: inline-block;
-    top: 250px;
-    margin-top: 20px;
-    border: 2px solid var(--primary-color);
-    border-radius: 10px;
-    padding: 30px 40px;
-    transition: 0.2s;
-    overflow: hidden;
-    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
-    background-color: rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  backdrop-filter: blur(20px);
+  position: relative;
+  display: inline-block;
+  top: 250px;
+  margin-top: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 30px 40px;
+  transition: 0.2s;
+  overflow: hidden;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* About Me button Border Animation */
 
 .about-me span {
-    position: absolute;
-    display: block;
+  position: absolute;
+  display: block;
 }
 
 .about-me span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 10px;
-    background: linear-gradient(90deg, transparent, var(--primary-color));
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(90deg, transparent, var(--primary-color));
 }
 
 .about-me:hover span:nth-child(1) {
-    left: 100%;
-    transition: 2s;
+  left: 100%;
+  transition: 2s;
 }
 
 .about-me span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 10px;
-    background: linear-gradient(270deg, transparent, var(--primary-color));
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(270deg, transparent, var(--primary-color));
 }
 
 .about-me:hover span:nth-child(3) {
-    right: 100%;
-    transition: 2s;
-    transition-delay: 0.110s;
+  right: 100%;
+  transition: 2s;
+  transition-delay: 0.11s;
 }
 
 .about-me span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 10px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, var(--primary-color));
+  top: -100%;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--primary-color));
 }
 
 .about-me:hover span:nth-child(2) {
-    top: 100%;
-    transition: 2s;
-    transition-delay: 0.110s;
+  top: 100%;
+  transition: 2s;
+  transition-delay: 0.11s;
 }
 
 .about-me span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 10px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, var(--primary-color));
+  bottom: -100%;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, var(--primary-color));
 }
 
 .about-me:hover span:nth-child(4) {
-    bottom: 100%;
-    transition: 2s;
-    transition-delay: 0.110s;
+  bottom: 100%;
+  transition: 2s;
+  transition-delay: 0.11s;
 }
 
 /* Hover Effect for About Me Button */
 
 .about-me:hover {
-    background-color: var(--secondary-color);
-    color: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 10px var(--secondary-color), 0 0 50px var(--secondary-color), 0 0 100px var(--secondary-color);
-    border: 2px solid var(--secondary-color);
-    transition-delay: 1.1s;
+  background-color: var(--secondary-color);
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px var(--secondary-color), 0 0 50px var(--secondary-color),
+    0 0 100px var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  transition-delay: 1.1s;
 }
 
 .contact-text {
@@ -572,367 +711,371 @@ html {
 /* About Me button Tooltip */
 
 #tooltip {
-    position: relative;
-    font-size: 12.5px;
+  position: relative;
+  font-size: 12.5px;
 }
 
 #tooltip #tooltiptext {
-    visibility: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    color: #fff;
-    text-align: center;
-    padding: 5px 5px;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-    width: 90px;
-    top: -35px;
-    left: -20px;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 90px;
+  top: -35px;
+  left: -20px;
 }
 
 #tooltip:hover #tooltiptext {
-    transition-delay: 0.5s;
-    visibility: visible;
+  transition-delay: 0.5s;
+  visibility: visible;
 }
 
 #tooltip #tooltiptext::after {
-    content: " ";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0 , 0.5) transparent transparent transparent;
-  }
-
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5) transparent transparent transparent;
+}
 
 /* Social Media Icons */
 
 .social-media-icons {
-    position: relative;
-    top: 300px;
-    margin: 50px;
-    margin-bottom: 400px;
-    display: flex;
-    margin-left: 460px;
+  position: relative;
+  top: 300px;
+  margin: 50px;
+  margin-bottom: 400px;
+  display: flex;
+  margin-left: 460px;
 }
-
 
 /* Home Link */
 
 #home {
-    color: #00ffbb;
+  color: #00ffbb;
 }
 
-
 @keyframes slideUp {
-    from {
-        opacity: 0;
-        -webkit-transform: translateY(70%);
-    }
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
 
-    to {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-    }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
 
 @-webkit-keyframes slideUp {
-    from {
-        opacity: 0;
-        -webkit-transform: translateY(70%);
-    }
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
 
-    to {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-    }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
-
-
 
 /* Side-Bar Nav-Links */
 
 .side-nav {
-    font-family: sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    height: 100vh;
-    width: 250px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    opacity: 0.97;
-    transform: translateX(-250px);
-    transition: transform 0.3s;
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100vh;
+  width: 250px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0.97;
+  transform: translateX(-250px);
+  transition: transform 0.3s;
 }
 
 .nav--open .side-nav {
-    transform: translateX(0);
-    box-shadow: 0 0 80px rgba(0, 0, 0, 1);
+  transform: translateX(0);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 1);
 }
-
 
 /* Side-Bar Nav-Items */
 
 .nav-item {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    align-items: center;
-    color: #c2c2c2;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 12px 15px;
-    position: relative;
-    left: 10px;
-    top: 60px;
-    background: transform 0.2s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  color: #c2c2c2;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px 15px;
+  position: relative;
+  left: 10px;
+  top: 60px;
+  background: transform 0.2s;
 }
 
 @keyframes SideBar {
-    from {
-        left: -40px;
-    }
+  from {
+    left: -40px;
+  }
 
-    to {
-        left: 10px;
-    }
+  to {
+    left: 10px;
+  }
 }
 
 @-webkit-keyframes SideBar {
-    from {
-        left: -40px;
-    }
+  from {
+    left: -40px;
+  }
 
-    to {
-        left: 10px;
-    }
+  to {
+    left: 10px;
+  }
 }
 
 .side-bar-links {
-    animation-name: SideBar;
-    animation-duration: 1.5s;
-    -webkit-animation-name: SideBar;
-    -webkit-animation-duration: 1.5s;
+  animation-name: SideBar;
+  animation-duration: 1.5s;
+  -webkit-animation-name: SideBar;
+  -webkit-animation-duration: 1.5s;
 }
 
-.nav-item>i {
-    margin-right: 15px;
+.nav-item > i {
+  margin-right: 15px;
 }
 
 .nav-item:hover {
-    background-color: #505050;
-    border-radius: 5px;
-    color: whitesmoke;
-    width: 230px;
-    font-size: 20px;
+  background-color: #505050;
+  border-radius: 5px;
+  color: whitesmoke;
+  width: 230px;
+  font-size: 20px;
 }
-
 
 #nav-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    backdrop-filter: blur(500px);
-    background: rgba(0, 0, 0, 0.8);
-    visibility: hidden;
-    opacity: 1;
-    transition: opacity 0.3s;
-    z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(500px);
+  background: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+  opacity: 1;
+  transition: opacity 0.3s;
+  z-index: 1;
 }
 
-
 .nav--open #nav-overlay {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 #side-label {
-    font-family: 'Edo';
-    text-decoration: none;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 40px;
-    text-transform: uppercase;
-    position: relative;
-    left: 30px;
-    top: 25px;
-    background: linear-gradient(250deg, rgb(255, 255, 255), rgb(190, 190, 190), rgb(155, 155, 155), rgb(124, 124, 124), rgb(117, 117, 117), rgb(114, 114, 114), rgb(117, 117, 117), rgb(124, 124, 124), rgb(155, 155, 155), rgb(190, 190, 190), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-size: 50%;
-    animation: GradientText 5s linear infinite;
+  font-family: "Edo";
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  text-transform: uppercase;
+  position: relative;
+  left: 30px;
+  top: 25px;
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: 50%;
+  animation: GradientText 5s linear infinite;
 }
 
 #side-label:hover {
-    animation: GradientText 1s linear infinite;
+  animation: GradientText 1s linear infinite;
 }
 
 #hamburger {
-    height: 30px;
-    position: fixed;
-    right: 35px;
-    top: 35px;
-    z-index: 100;
+  height: 30px;
+  position: fixed;
+  right: 35px;
+  top: 35px;
+  z-index: 100;
 }
 
 #hamburger:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #close {
-    height: 35px;
-    position: fixed;
-    right: 35px;
-    top: 35px;
-    z-index: 10;
+  height: 35px;
+  position: fixed;
+  right: 35px;
+  top: 35px;
+  z-index: 10;
 }
 
 #close:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-
 @media only screen and (min-width: 966px) {
-    #hamburger {
-        display: none;
-    }
+  #hamburger {
+    display: none;
+  }
 
-    #close {
-        display: none;
-    }
+  #close {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 966px) {
-    #hamburger {
-        display: block;
-    }
+  #hamburger {
+    display: block;
+  }
 
-    #close {
-        display: none;
-    }
+  #close {
+    display: none;
+  }
 
-    .nav-links {
-        display: none;
-    }
+  .nav-links {
+    display: none;
+  }
 }
 
 .second-section {
-    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
-    background-color: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(10px);
-    height: 1000px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+  height: 1000px;
 }
 
 #about-section h1 {
-    text-align: center;
-    position: relative;
-    top: 50px;
-    font-size: 90px;
-    filter: blur(5px);
-    font-family: impact;
-    z-index: -1;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: 90px;
+  filter: blur(5px);
+  font-family: impact;
+  z-index: -1;
 }
 
 #about-section h3 {
-    text-align: center;
-    color: white;
-    font-size: 60px;
-    position: relative;
-    bottom: 25px;
-    font-family: impact;
-    z-index: 99;
-    filter: blur(1px);
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  position: relative;
+  bottom: 25px;
+  font-family: impact;
+  z-index: 99;
+  filter: blur(1px);
 }
 
 #about-section h3::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 130px;
-    height: 2px;
-    background: rgb(168, 168, 168);
-    bottom: -25px;
-    left: calc(50% - 60px);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: rgb(168, 168, 168);
+  bottom: -25px;
+  left: calc(50% - 60px);
 }
 
 #about-section h3::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 4px;
-    background: #0563bb;
-    bottom: -26px;
-    left: calc(50% - 20px);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #0563bb;
+  bottom: -26px;
+  left: calc(50% - 20px);
 }
 
 .about-img {
-    position: relative;
-    left: 200px;
-    top: 100px;
-    border-radius: 20px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+  border-radius: 20px;
 }
 
 .about-text {
-    font-family: 'Kanit', sans-serif;
-    font-weight: bolder;
-    width: 500px;
-    position: relative;
-    left: 650px;
-    bottom: 170px;
-    color: rgb(122, 122, 122);
-    font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+  width: 500px;
+  position: relative;
+  left: 650px;
+  bottom: 170px;
+  color: rgb(122, 122, 122);
+  font-size: 20px;
 }
-
-
 
 /* Contact Section */
 
 #contact-section h1 {
-    text-align: center;
-    position: relative;
-    top: 50px;
-    font-size: 90px;
-    filter: blur(4px);
-    font-family: impact;
-    z-index: -1;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: 90px;
+  filter: blur(4px);
+  font-family: impact;
+  z-index: -1;
 }
 
 #contact-section h3 {
-    text-align: center;
-    color: white;
-    font-size: 60px;
-    position: relative;
-    bottom: 25px;
-    font-family: impact;
-    z-index: 99;
-    filter: blur(1px);
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  position: relative;
+  bottom: 25px;
+  font-family: impact;
+  z-index: 99;
+  filter: blur(1px);
 }
 
 #contact-section h3::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 130px;
-    height: 2px;
-    background: rgb(168, 168, 168);
-    bottom: -25px;
-    left: calc(50% - 60px);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: rgb(168, 168, 168);
+  bottom: -25px;
+  left: calc(50% - 60px);
 }
 
 #contact-section h3::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 4px;
-    background: #0563bb;
-    bottom: -26px;
-    left: calc(50% - 20px);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #0563bb;
+  bottom: -26px;
+  left: calc(50% - 20px);
 }
