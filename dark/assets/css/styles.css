@@ -1075,7 +1075,6 @@ html {
 
 .formContainer {
   height: 40rem;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1106,5 +1105,5 @@ html {
   width: 30rem;
   border-radius: 2rem;
   font-size: 1.1rem;
-  transition: .2 ease;
+  transition: 0.2 ease;
 }
