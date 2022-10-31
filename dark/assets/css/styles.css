@@ -1072,3 +1072,39 @@ html {
   bottom: -26px;
   left: calc(50% - 20px);
 }
+
+.formContainer {
+  height: 40rem;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer form {
+  width: 30rem;
+  color: white;
+}
+
+.formContainer input {
+  width: 30rem;
+  margin: 3rem 0rem;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+}
+
+.formContainer textarea {
+  width: 30rem;
+  height: 10rem;
+  margin: 3rem 0rem;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+}
+
+.formContainer button {
+  width: 30rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  transition: .2 ease;
+}
