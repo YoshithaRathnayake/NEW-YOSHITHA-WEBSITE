@@ -1085,3 +1085,7 @@ html {
   bottom: -26px;
   left: calc(50% - 20px);
 }
+
+#contact-section p {
+  color: #9c9c9c;
+}
