@@ -1037,7 +1037,7 @@ html {
   font-family: "Kanit", sans-serif;
   font-weight: bolder;
   color: rgb(122, 122, 122);
-
+  font-size: 24px;
 }
 
 #contact-section h3 {
@@ -1071,8 +1071,4 @@ html {
   background: #0563bb;
   bottom: -26px;
   left: calc(50% - 20px);
-}
-
-#contact-section p {
-  color: #9c9c9c;
 }
