@@ -1046,6 +1046,12 @@ html {
   font-family: impact;
   z-index: -1;
 }
+.contact-text{
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+  color: rgb(122, 122, 122);
+
+}
 
 #contact-section h3 {
   text-align: center;
