@@ -2,14 +2,14 @@
 
 ::selection {
   color: black;
-  background: #34ebb1;
+  background: var(--primary-color);
 }
 
 /* Firefox */
 
 ::-moz-selection {
   color: black;
-  background: #34ebb1;
+  background: var(--primary-color);
 }
 
 
