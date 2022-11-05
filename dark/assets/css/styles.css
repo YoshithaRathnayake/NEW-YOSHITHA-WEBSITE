@@ -19,7 +19,6 @@
 /* Text Selection Colour */
 
 ::selection {
-  height: 50px;
   color: black;
   background: var(--primary-color);
 }
