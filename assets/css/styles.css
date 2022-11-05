@@ -1,3 +1,11 @@
+/* Colour Variable */
+
+:root {
+  --primary-color: #1efff4;
+  --secondary-color: #1eff8f;
+}
+
+
 /* Text Selection Colour */
 
 ::selection {
