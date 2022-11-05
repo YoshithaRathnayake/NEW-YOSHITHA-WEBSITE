@@ -1,3 +1,18 @@
+/* Text Selection Colour */
+
+::selection {
+  color: black;
+  background: var(--primary-color)
+}
+
+/* Firefox */
+
+::-moz-selection {
+  color: black;
+  background: var(--primary-color);
+}
+
+
 /* Custom Scrollbar */
 
 @media (min-width: 200px) and (max-width: 575px) {

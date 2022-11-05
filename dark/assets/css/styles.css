@@ -2,9 +2,11 @@
 
 @import url("http://fonts.cdnfonts.com/css/edo");
 
+
 /* Kanit Font */
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
 
 /* Colour Variable */
 
@@ -12,6 +14,22 @@
   --primary-color: #1efff4;
   --secondary-color: #1eff8f;
 }
+
+
+/* Text Selection Colour */
+
+::selection {
+  color: black;
+  background: var(--primary-color);
+}
+
+/* Firefox */
+
+::-moz-selection {
+  color: black;
+  background: var(--primary-color);
+}
+
 
 /* Background Image */
 
