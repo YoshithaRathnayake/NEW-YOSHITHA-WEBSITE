@@ -14,6 +14,8 @@ The purpose of this Pull Request is to fix #<issue-number>
 ### Preview Link
 <!---  This PR will be automatically deployed to surge. -->
 <!---  Once you submit the PR, replace "{PR_NUMBER}" with your PR number. -->
+<!---  ex: https://pr-111-sef-site.surge.sh -->
+<!---  Feel free to modify the link with the exact path -->
 https://pr-{PR_NUMBER}-NEW-YOSHITHA-WEBSITE.surge.sh/
 
 ##  Checklist
