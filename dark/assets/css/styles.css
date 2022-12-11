@@ -1051,6 +1051,10 @@ html {
   z-index: -1;
 }
 
+.fa{
+  padding: 5px;
+}
+
 .contact-text {
   font-family: "Kanit", sans-serif;
   font-weight: bolder;
