@@ -978,7 +978,7 @@ html {
   height: 1000px;
 }
 
-#about-section h1 {
+#about h1 {
   text-align: center;
   position: relative;
   top: 50px;
@@ -988,7 +988,7 @@ html {
   z-index: -1;
 }
 
-#about-section h3 {
+#about h3 {
   text-align: center;
   color: white;
   font-size: 60px;
@@ -999,7 +999,7 @@ html {
   filter: blur(1px);
 }
 
-#about-section h3::before {
+#about h3::before {
   content: "";
   position: absolute;
   display: block;
@@ -1010,7 +1010,7 @@ html {
   left: calc(50% - 60px);
 }
 
-#about-section h3::after {
+#about h3::after {
   content: "";
   position: absolute;
   display: block;
@@ -1041,7 +1041,7 @@ html {
 
 /* Contact Section */
 
-#contact-section h1 {
+#contact h1 {
   text-align: center;
   position: relative;
   top: 50px;
@@ -1058,7 +1058,7 @@ html {
   font-size: 18px;
 }
 
-#contact-section h3 {
+#contact h3 {
   text-align: center;
   color: white;
   font-size: 60px;
@@ -1069,7 +1069,7 @@ html {
   filter: blur(1px);
 }
 
-#contact-section h3::before {
+#contact h3::before {
   content: "";
   position: absolute;
   display: block;
@@ -1080,7 +1080,7 @@ html {
   left: calc(50% - 60px);
 }
 
-#contact-section h3::after {
+#contact h3::after {
   content: "";
   position: absolute;
   display: block;
