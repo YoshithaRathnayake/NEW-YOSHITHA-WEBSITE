@@ -13,21 +13,21 @@ function AppearText() {
 // Nav-Links On-click Colour
 
 function home() {
-    document.getElementById("home").style.color = "#1eff8f";
-    document.getElementById("about").style.color = "white";
-    document.getElementById("contact").style.color = "white";
+    document.getElementById("home-link").style.color = "#1eff8f";
+    document.getElementById("about-link").style.color = "white";
+    document.getElementById("contact-link").style.color = "white";
 }
 
 function about() {
-    document.getElementById("about").style.color = "#1eff8f";
-    document.getElementById("home").style.color = "white";
-    document.getElementById("contact").style.color = "white";
+    document.getElementById("home-link").style.color = "white";
+    document.getElementById("about-link").style.color = "#1eff8f";
+    document.getElementById("contact-link").style.color = "white";
 }
 
 function contact() {
-    document.getElementById("contact").style.color = "#1eff8f";
-    document.getElementById("home").style.color = "white";
-    document.getElementById("about").style.color = "white";
+    document.getElementById("home-link").style.color = "white";
+    document.getElementById("about-link").style.color = "white";
+    document.getElementById("contact-link").style.color = "#1eff8f";
 }
 
 
