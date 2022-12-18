@@ -978,6 +978,11 @@ html {
   height: 1000px;
 }
 
+.Demo-section {
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+}
+
 #about h1 {
   text-align: center;
   position: relative;
