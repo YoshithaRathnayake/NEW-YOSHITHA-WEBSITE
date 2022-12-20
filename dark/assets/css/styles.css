@@ -1062,6 +1062,9 @@ html {
   font-weight: bolder;
   color: rgb(122, 122, 122);
   font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+  padding-top: 30px;
 }
 
 #contact h3 {
