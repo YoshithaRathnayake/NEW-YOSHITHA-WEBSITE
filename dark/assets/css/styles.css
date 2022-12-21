@@ -1051,7 +1051,6 @@ html {
   z-index: -1;
 }
 
-#contact .contact-text {
   background-color: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(10px);
   padding-top: 30px;
