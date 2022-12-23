@@ -706,14 +706,6 @@ html {
   transition-delay: 1.1s;
 }
 
-.contact-text {
-  text-align: center;
-  font-size: medium;
-  color: black;
-
-
-}
-
 /* About Me button Tooltip */
 
 #tooltip {
@@ -1030,11 +1022,10 @@ html {
 
 .about-text {
   font-family: "Kanit", sans-serif;
-  font-weight: bolder;
   width: 500px;
   position: relative;
   left: 650px;
-  bottom: 170px;
+  bottom: 155px;
   color: rgb(122, 122, 122);
   font-size: 20px;
 }
@@ -1053,7 +1044,6 @@ html {
 
 .contact-text {
   font-family: "Kanit", sans-serif;
-  font-weight: bolder;
   color: rgb(122, 122, 122);
   font-size: 18px;
 }
