@@ -1042,6 +1042,11 @@ html {
   z-index: -1;
 }
 
+#contact center{
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+}
+
 .contact-text {
   font-family: "Kanit", sans-serif;
   color: rgb(122, 122, 122);
@@ -1049,6 +1054,8 @@ html {
   background-color: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(10px);
   padding-top: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #contact h3 {
