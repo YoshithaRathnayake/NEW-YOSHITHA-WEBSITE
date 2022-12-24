@@ -7,8 +7,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description"
-    content="Hi, I am Yoshitha Rathnayake. I am from Kandy, Sri Lanka. I am 14 years old. I am studing in St. Anthony's College, Kandy" />
+  <meta name="description" content="Hi, I am Yoshitha Rathnayake. I am from Kandy, Sri Lanka. I am 14 years old. I am studing in St. Anthony's College, Kandy" />
   <meta name="author" content="YOSHITHA RATHNAYAKE" />
   <meta name="keywords" content="PERSONAL PORTFOLIO WEBSITE" />
 
@@ -267,7 +266,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-  <!-- Nav-bar Scroll Animation -->
+  <!-- Internal JavaScript -->
 
   <script>
     // Auto Typing Effect Script
@@ -287,6 +286,9 @@
       loop: true,
     });
 
+
+    // Navigation Bar Scroll Animation
+    
     $(window).scroll(function () {
       if ($(document).scrollTop() > 400) {
         $(".nav-bar").addClass("affix");
@@ -295,7 +297,10 @@
         $(".nav-bar").removeClass("affix");
       }
     });
-
+    
+    
+    // Mobile View Navigation Bar Menu Icon
+    
     const menu_toggle = document.querySelector(".menu-toggle");
     const sidebar = document.querySelector(".sidebar");
 
