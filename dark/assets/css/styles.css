@@ -1115,7 +1115,6 @@ html {
   font-size: 1.1rem;
   transition: 0.2 ease;
 }
-
 p, .a-CTA, input, header .navigation-bar a, .copyright li, .contact .form form label, .contact .form form button {
   font-family: Cabin, sans-serif;
 }
