@@ -1047,6 +1047,11 @@ html {
   backdrop-filter: blur(10px);
 } */
 
+#contact center{
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+}
+
 .contact-text {
   font-family: "Kanit", sans-serif;
   color: rgb(122, 122, 122);
