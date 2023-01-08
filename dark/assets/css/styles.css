@@ -2,11 +2,9 @@
 
 @import url("http://fonts.cdnfonts.com/css/edo");
 
-
 /* Kanit Font */
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-
 
 /* Colour Variable */
 
@@ -14,7 +12,6 @@
   --primary-color: #1efff4;
   --secondary-color: #1eff8f;
 }
-
 
 /* Text Selection Colour */
 
@@ -29,7 +26,12 @@
   color: black;
   background: var(--primary-color);
 }
-
+/*  Utility */
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Background Image */
 
@@ -626,7 +628,7 @@ html {
   margin-top: 20px;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
-  padding: 30px 40px;
+  padding: 20px 40px;
   transition: 0.2s;
   overflow: hidden;
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
@@ -751,8 +753,7 @@ html {
   top: 300px;
   margin: 50px;
   margin-bottom: 400px;
-  display: flex;
-  margin-left: 460px;
+
 }
 
 /* Home Link */
@@ -850,7 +851,7 @@ html {
   -webkit-animation-duration: 1.5s;
 }
 
-.nav-item>i {
+.nav-item > i {
   margin-right: 15px;
 }
 
@@ -1042,7 +1043,7 @@ html {
   z-index: -1;
 }
 
-#contact center{
+#contact center {
   background-color: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(10px);
 }
