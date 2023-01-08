@@ -2,11 +2,9 @@
 
 @import url("http://fonts.cdnfonts.com/css/edo");
 
-
 /* Kanit Font */
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-
 
 /* Colour Variable */
 
@@ -14,7 +12,6 @@
   --primary-color: #1efff4;
   --secondary-color: #1eff8f;
 }
-
 
 /* Text Selection Colour */
 
@@ -29,7 +26,6 @@
   color: black;
   background: var(--primary-color);
 }
-
 
 /* Background Image */
 
@@ -239,19 +235,21 @@ html {
   position: relative;
   left: 100px;
   top: 32px;
-  background: linear-gradient(250deg,
-      rgb(255, 255, 255),
-      rgb(190, 190, 190),
-      rgb(155, 155, 155),
-      rgb(124, 124, 124),
-      rgb(117, 117, 117),
-      rgb(114, 114, 114),
-      rgb(117, 117, 117),
-      rgb(124, 124, 124),
-      rgb(155, 155, 155),
-      rgb(190, 190, 190),
-      rgb(255, 255, 255),
-      rgb(255, 255, 255));
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
   color: transparent;
   -webkit-background-clip: text;
   background-size: 100%;
@@ -290,19 +288,21 @@ html {
 /* Hover Effect for Nav-Label*/
 
 #nav-label:hover {
-  background: linear-gradient(250deg,
-      rgb(255, 255, 255),
-      rgb(190, 190, 190),
-      rgb(155, 155, 155),
-      rgb(124, 124, 124),
-      rgb(117, 117, 117),
-      rgb(114, 114, 114),
-      rgb(117, 117, 117),
-      rgb(124, 124, 124),
-      rgb(155, 155, 155),
-      rgb(190, 190, 190),
-      rgb(255, 255, 255),
-      rgb(255, 255, 255));
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
   color: transparent;
   -webkit-background-clip: text;
   background-size: 100%;
@@ -320,19 +320,21 @@ html {
   position: relative;
   left: 95px;
   top: 32px;
-  background: linear-gradient(250deg,
-      rgb(255, 255, 255),
-      rgb(190, 190, 190),
-      rgb(155, 155, 155),
-      rgb(124, 124, 124),
-      rgb(117, 117, 117),
-      rgb(114, 114, 114),
-      rgb(117, 117, 117),
-      rgb(124, 124, 124),
-      rgb(155, 155, 155),
-      rgb(190, 190, 190),
-      rgb(255, 255, 255),
-      rgb(255, 255, 255));
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
   color: transparent;
   -webkit-background-clip: text;
   background-size: 50%;
@@ -416,14 +418,16 @@ html {
   top: 130px;
   text-transform: uppercase;
   text-decoration: none;
-  background: linear-gradient(50deg,
-      rgb(255, 0, 200),
-      rgb(255, 0, 0),
-      rgb(229, 255, 0),
-      rgb(0, 255, 255),
-      rgb(0, 255, 55),
-      rgb(217, 255, 0),
-      rgb(255, 0, 149));
+  background: linear-gradient(
+    50deg,
+    rgb(255, 0, 200),
+    rgb(255, 0, 0),
+    rgb(229, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 255, 55),
+    rgb(217, 255, 0),
+    rgb(255, 0, 149)
+  );
   color: transparent;
   -webkit-background-clip: text;
   background-size: 50%;
@@ -438,14 +442,16 @@ html {
 /* Hover Effect for the Heading */
 
 #header:hover {
-  background: linear-gradient(50deg,
-      rgb(255, 0, 200),
-      rgb(255, 0, 0),
-      rgb(229, 255, 0),
-      rgb(0, 255, 255),
-      rgb(0, 255, 55),
-      rgb(217, 255, 0),
-      rgb(255, 0, 149));
+  background: linear-gradient(
+    50deg,
+    rgb(255, 0, 200),
+    rgb(255, 0, 0),
+    rgb(229, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 255, 55),
+    rgb(217, 255, 0),
+    rgb(255, 0, 149)
+  );
   color: transparent;
   -webkit-background-clip: text;
   background-size: 50%;
@@ -490,14 +496,16 @@ html {
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
-  background: linear-gradient(250deg,
-      rgb(255, 0, 200),
-      rgb(255, 0, 0),
-      rgb(229, 255, 0),
-      rgb(0, 255, 255),
-      rgb(0, 255, 55),
-      rgb(217, 255, 0),
-      rgb(255, 0, 149));
+  background: linear-gradient(
+    250deg,
+    rgb(255, 0, 200),
+    rgb(255, 0, 0),
+    rgb(229, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 255, 55),
+    rgb(217, 255, 0),
+    rgb(255, 0, 149)
+  );
   color: transparent;
   -webkit-background-clip: text;
   background-size: 50%;
@@ -850,7 +858,7 @@ html {
   -webkit-animation-duration: 1.5s;
 }
 
-.nav-item>i {
+.nav-item > i {
   margin-right: 15px;
 }
 
@@ -891,20 +899,22 @@ html {
   position: relative;
   left: 30px;
   top: 25px;
-  background: linear-gradient(250deg,
-      rgb(255, 255, 255),
-      rgb(190, 190, 190),
-      rgb(155, 155, 155),
-      rgb(124, 124, 124),
-      rgb(117, 117, 117),
-      rgb(114, 114, 114),
-      rgb(117, 117, 117),
-      rgb(124, 124, 124),
-      rgb(155, 155, 155),
-      rgb(190, 190, 190),
-      rgb(255, 255, 255),
-      rgb(255, 255, 255),
-      rgb(255, 255, 255));
+  background: linear-gradient(
+    250deg,
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(155, 155, 155),
+    rgb(124, 124, 124),
+    rgb(117, 117, 117),
+    rgb(114, 114, 114),
+    rgb(117, 117, 117),
+    rgb(124, 124, 124),
+    rgb(155, 155, 155),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
   color: transparent;
   -webkit-background-clip: text;
   background-size: 50%;
@@ -1042,7 +1052,7 @@ html {
   z-index: -1;
 }
 
-#contact center{
+#contact center {
   background-color: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(10px);
 }
