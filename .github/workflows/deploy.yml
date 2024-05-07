@@ -1,0 +1,35 @@
+name: Deploy a preview into NEW-YOSHITHA-WEBSITE-preview.surge.sh
+
+on:
+  push:
+    branches: [ feature-v5 ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: Install packages
+        run: npm install
+
+      - name: Install bundle
+        run: bundle install
+
+      - name: Build the app
+        run: jekyll build
+
+      - name: Install Surge
+        run: npm install -g surge
+
+      - name: Deploy to surge
+        run: surge ./_site https://NEW-YOSHITHA-WEBSITE-preview.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
