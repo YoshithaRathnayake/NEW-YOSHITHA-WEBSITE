@@ -1,9 +1,7 @@
-# This is the work flow to generate preview links for Pull Requests
-name: PR-Preview-Generator
+name: Preview-Link-Generator
 on:
   pull_request:
-    branches:
-      - main
+    branches: [ master ]
 
 jobs:
   build:
@@ -11,15 +9,30 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Using Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2-beta
         with:
-          node-version: '12.x'
-      - name: Installing Surge
-        run: npm i -g surge
-      - name: Deploying on Surge
+          node-version: '12'
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: Install packages
+        run: npm install
+
+      - name: Install bundle
+        run: bundle install
+
+      - name: Build the app
+        run: jekyll build
+
+      - name: Install Surge
+        run: npm install -g surge
+
+      - name: Deploy to surge
         env:
-          SURGE_LOGIN: Y.S.B.Rathnayake2008@gmail.com
-          SURGE_TOKEN: 4f75270ec1d0e4d48c5ecc3959f9d888
+          SURGE_LOGIN: yoshithasbrathnayake@gmail.com
+          SURGE_TOKEN: acb9d89132e778a11f8bf1fea973b9fc
           DEPLOY_DOMAIN: https://pr-${{ github.event.number }}-NEW-YOSHITHA-WEBSITE.surge.sh
-        run: surge ./ $DEPLOY_DOMAIN --token $SURGE_TOKEN
+        run: surge ./_site/ $DEPLOY_DOMAIN --token $SURGE_TOKEN
