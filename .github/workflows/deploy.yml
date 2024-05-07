@@ -1,10 +1,11 @@
-name: Preview-Link-Generator
+name: Deploy a preview into NEW-YOSHITHA-WEBSITE-preview.surge.sh
+
 on:
-  pull_request:
-    branches: [ master ]
+  push:
+    branches: [ feature-v5 ]
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,8 +32,4 @@ jobs:
         run: npm install -g surge
 
       - name: Deploy to surge
-        env:
-          SURGE_LOGIN: yoshithasbrathnayake@gmail.com
-          SURGE_TOKEN: acb9d89132e778a11f8bf1fea973b9fc
-          DEPLOY_DOMAIN: https://pr-${{ github.event.number }}-NEW-YOSHITHA-WEBSITE.surge.sh
-        run: surge ./_site/ $DEPLOY_DOMAIN --token $SURGE_TOKEN
+        run: surge ./_site https://NEW-YOSHITHA-WEBSITE-preview.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
