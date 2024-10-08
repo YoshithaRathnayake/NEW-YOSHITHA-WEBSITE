@@ -32,7 +32,7 @@ jobs:
 
       - name: Deploy to surge
         env:
-          SURGE_LOGIN: yoshithasbrathnayake@gmail.com
+          SURGE_LOGIN: acf@sack.edu.lk
           SURGE_TOKEN: acb9d89132e778a11f8bf1fea973b9fc
           DEPLOY_DOMAIN: https://pr-${{ github.event.number }}-NEW-YOSHITHA-WEBSITE.surge.sh
         run: surge ./_site/ $DEPLOY_DOMAIN --token $SURGE_TOKEN
