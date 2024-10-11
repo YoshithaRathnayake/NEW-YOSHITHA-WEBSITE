@@ -38,7 +38,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center"><a href="http://www.Yoshitha.tk"><img src="https://avatars.githubusercontent.com/u/97069900?v=4?s=100" width="100px;" alt="YOSHITHA RATHNAYAKE"/><br /><sub><b>YOSHITHA RATHNAYAKE</b></sub></a><br /><a href="https://github.com/YoshithaRathnayake/NEW-YOSHITHA-WEBSITE/commits?author=YoshithaRathnayake" title="Code">💻</a></td>
-      <td align="center"><a href="https://github.com/Rishav1707"><img src="https://avatars.githubusercontent.com/u/97666287?v=4?s=100" width="100px;" alt="Rishav Raj"/><br /><sub><b>Rishav Raj</b></sub></a><br /><a href="https://github.com/YoshithaRathnayake/NEW-YOSHITHA-WEBSITE/commits?author=Rishav1707" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
