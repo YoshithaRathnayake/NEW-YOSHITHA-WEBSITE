@@ -752,7 +752,7 @@ html {
   margin: 50px;
   margin-bottom: 400px;
   display: flex;
-  margin-left: 460px;
+  justify-content: center;
 }
 
 /* Home Link */
