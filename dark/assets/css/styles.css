@@ -578,7 +578,7 @@ html {
 /* Auto Typing Effect */
 
 .text-box {
-  color: red;
+  color: #00ffd8;
   text-align: center;
   position: relative;
   top: 200px;
@@ -596,7 +596,7 @@ html {
 
 .auto-type {
   font-size: 35px;
-  color: red;
+  color: #00ffd8;
   font-family: Edo;
   font-weight: bold;
   font-style: italic;
