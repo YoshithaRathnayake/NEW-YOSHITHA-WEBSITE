@@ -1,4 +1,4 @@
-# <div align="center"><a href="https://www.Yoshitha.tk"><b><i>WELCOME!, TO MY NEW OFFICIAL WEBSITE</i></b></a></div>
+# <div align="center"><a href="https://www.Yoshitha.tk"><b><i>WELCOME!, TO MY OFFICIAL WEBSITE</i></b></a></div>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
@@ -6,7 +6,7 @@
 
 <!--# <div align="center"><img src="https://avatars.githubusercontent.com/u/97069900?v=4?s=100" width="300px"></div> -->
 
-> This is My Official Website
+> This is My Official Website.
 
 > I made this Project when I was 13 years old (Grade 8D).
 
